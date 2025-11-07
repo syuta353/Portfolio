@@ -1,0 +1,7 @@
+📊 Extended VotingClassifier モデル評価
+
+　　　　　　　　　　precision    recall  f1-score   support
+
+         accuracy                           0.76       558
+        macro avg       0.54      0.58      0.54       558
+     weighted avg       0.77      0.76      0.75       558
