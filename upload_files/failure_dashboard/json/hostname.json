@@ -1,0 +1,7 @@
+[
+  { "hostname": "RT-1001", "bill": "B01", "d_type": "DT01" },
+  { "hostname": "SW-204", "bill": "B02", "d_type": "DT02" },
+  { "hostname": "SN-03",  "bill": "B03", "d_type": "DT03" },
+  { "hostname": "MT-22",  "bill": "B04", "d_type": "DT04" },
+  { "hostname": "CP-010", "bill": "B05", "d_type": "DT05" }
+]

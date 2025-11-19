@@ -1,0 +1,7 @@
+{
+  "DT01": ["Router"],
+  "DT02": ["Switch"],
+  "DT03": ["Sensor"],
+  "DT04": ["Motor"],
+  "DT05": ["Compressor"]
+}

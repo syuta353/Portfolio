@@ -7,10 +7,10 @@ class DataManager:
 
         # ファイルパス定義
         self.paths = {
-            "host_json": "app/static/json/hostname.json",
-            "type_json": "app/static/json/d_type.json",
-            "bill_json": "app/static/json/bill.json",
-            "output_json": "app/static/json/failed_db.json",
+            "host_json": "json/hostname.json",
+            "type_json": "json/d_type.json",
+            "bill_json": "json/bill.json",
+            "output_json": "json/failed_db.json",
             "missing_list": os.path.join(self.base_dir, "data_log/missing_list.txt"),
             "original_db": os.path.join(self.base_dir, "excel/original_db.xlsx"),
             "model_dir": os.path.join(self.base_dir, "device_models")

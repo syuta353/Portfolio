@@ -2,6 +2,7 @@
 # 📦 必要なモジュールとクラスのインポート
 # ----------------------------------------
 import os
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -104,12 +105,20 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 🔧 装置種別ごとの交換部品予測セクション")
 
-    model_dir = data_manager.get_model_dir()
-    device_types = sorted([
-        fname[len("model_"):-len(".pkl")]
-        for fname in os.listdir(model_dir)
-        if fname.startswith("model_") and fname.endswith(".pkl")
-    ])
+    # モデルディレクトリ内の "model_<type>.pkl" ファイル名から装置種別を安全に取得します。
+    # ディレクトリが存在しない、または該当ファイルがない場合は空リストを返します。
+    model_dir = Path(data_manager.get_model_dir())
+    device_types = []
+    try:
+        if model_dir.exists() and model_dir.is_dir():
+            device_types = sorted([
+                fname[len("model_"):-len(".pkl")]
+                for fname in os.listdir(model_dir)
+                if fname.startswith("model_") and fname.endswith(".pkl")
+            ])
+    except Exception:
+        # 失敗しても UI が壊れないように空リストを使う
+        device_types = []
 
     device_type_str = st.selectbox("装置種別を選択", device_types)
     error_code = st.text_input("エラーコード（7桁）を入力", max_chars=7)
