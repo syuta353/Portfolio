@@ -8,11 +8,125 @@ import pandas as pd
 import streamlit as st
 from datetime import datetime
 
+import joblib
+import numpy as np
+import pandas as pd
+import streamlit as st
+from datetime import datetime
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import VotingClassifier, RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neural_network import MLPClassifier
+
 from data import DataManager
 
 #インスタンス化
 data_manager = DataManager()
 
+
+"""
+0. DeviceModelTrainer（装置種別ごとの拡張モデル生成）
+責務：
+
+・JSONデータからエラーコードと交換部品の対応表を生成
+・装置種別ごとに VotingClassifier を学習し、関連するエンコーダやスケーラーと一緒に保存
+
+主な関数：
+
+・train_and_save_models()
+
+"""
+class DeviceModelTrainer:
+    def __init__(self):
+        self.json_path = data_manager.get_path("output_json")
+        self.model_dir = data_manager.get_model_dir()
+        os.makedirs(self.model_dir, exist_ok=True)
+
+    def _load_json(self):
+        with open(self.json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    def _clean_text(self, text):
+        if pd.isna(text):
+            return ""
+        return str(text).replace("\n", " ").replace("\t", " ").strip()
+
+    def _extract_error_codes(self, text):
+        return " ".join(re.findall(r"\b\d{7}\b", text))
+
+    def _build_error_mapping(self, df):
+        records = []
+        for _, row in df.iterrows():
+            error_text = str(row.get("障害エラー名抽出", ""))
+            parts_text = str(row.get("交換部品", ""))
+            device_type = str(row.get("装置種別", ""))
+            error_codes = set(re.findall(r"\b\d{7}\b", error_text))
+            split_parts = str(parts_text).splitlines()
+            split_parts = [p.strip() for p in split_parts if p.strip()]
+            for code in error_codes:
+                for part in split_parts:
+                    records.append({
+                        "エラーコード": code,
+                        "交換部品": part,
+                        "装置種別": device_type
+                    })
+        return pd.DataFrame(records)
+
+    def train_and_save_models(self):
+        with st.spinner("🤖 拡張モデルを再学習しています..."):
+            json_data = self._load_json()
+            df = pd.DataFrame(json_data)
+
+            df["不具合内容_cleaned"] = df["不具合内容"].apply(self._clean_text)
+            df["障害エラー名抽出"] = df["不具合内容_cleaned"].apply(self._extract_error_codes)
+
+            error_df = self._build_error_mapping(df)
+
+            for device in error_df["装置種別"].unique():
+                subset = error_df[error_df["装置種別"] == device].copy()
+                sample_counts = subset["交換部品"].value_counts().to_dict()
+
+                if len(subset["交換部品"].unique()) < 2:
+                    continue
+
+                le_code = LabelEncoder()
+                le_parts = LabelEncoder()
+                subset["error_code_encoded"] = le_code.fit_transform(subset["エラーコード"])
+                subset["parts_encoded"] = le_parts.fit_transform(subset["交換部品"])
+
+                X = subset[["error_code_encoded"]]
+                y = subset["parts_encoded"]
+
+                scaler = StandardScaler()
+                X_scaled = scaler.fit_transform(X)
+
+                X_train, _, y_train, _ = train_test_split(X_scaled, y, test_size=0.3, random_state=42)
+                knn_n = min(5, len(X_train))
+
+                if len(set(y_train)) < 2:
+                    continue
+
+                model = VotingClassifier(
+                    estimators=[
+                        ('rf', RandomForestClassifier(random_state=42)),
+                        ('lr', LogisticRegression(max_iter=1000, class_weight='balanced')),
+                        ('knn', KNeighborsClassifier(n_neighbors=knn_n)),
+                        ('mlp', MLPClassifier(hidden_layer_sizes=(100,), max_iter=1000, learning_rate_init=0.001))
+                    ],
+                    voting='soft'
+                )
+                model.fit(X_train, y_train)
+
+                safe_device = re.sub(r"[\\/:*?\"<>|]", "_", device)
+                joblib.dump(model, os.path.join(self.model_dir, f"model_{safe_device}.pkl"))
+                joblib.dump(le_code, os.path.join(self.model_dir, f"le_code_{safe_device}.pkl"))
+                joblib.dump(le_parts, os.path.join(self.model_dir, f"le_parts_{safe_device}.pkl"))
+                joblib.dump(scaler, os.path.join(self.model_dir, f"scaler_{safe_device}.pkl"))
+                joblib.dump(sample_counts, os.path.join(self.model_dir, f"sample_counts_{safe_device}.pkl"))
+
+        st.success("✅ 拡張モデルの再学習と保存が完了しました。")
 
 """
 1. DeviceModelManager（モデルの読み込み・予測）

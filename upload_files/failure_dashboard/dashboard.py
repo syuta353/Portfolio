@@ -13,6 +13,7 @@ from datetime import datetime
 # クラスベースのサービス群をインポート
 from services import (
     DeviceModelManager,
+    DeviceModelTrainer,
     FailureDataProcessor,
     AnomalyDetector,
     HostInfoResolver,
@@ -25,6 +26,7 @@ from data import DataManager
 # ----------------------------------------
 data_manager = DataManager()
 model_manager = DeviceModelManager()
+model_trainer = DeviceModelTrainer()
 data_processor = FailureDataProcessor()
 anomaly_detector = AnomalyDetector()
 host_resolver = HostInfoResolver()
@@ -79,7 +81,8 @@ with st.sidebar:
                 st.error("❌ ファイル名に 'NTT-NGN西日本' が含まれていないため、処理を実行できません。")
             else:
                 data_processor.convert_excel_to_json(temp_path)
-                st.success("✅ 故障データのJSON変換が完了しました。")
+                model_trainer.train_and_save_models()
+                st.success("✅ 故障データのJSON変換とモデルの更新が完了しました。")
     else:
         # hostname, bill, device_type の編集処理
         sheet_name = conversion_target
