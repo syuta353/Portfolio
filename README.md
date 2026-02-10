@@ -22,3 +22,14 @@ Extended VotingClassifier を用いたモデルの評価結果（精度など）
 ## 利用方法のヒント
 - ダッシュボードは `upload_files/failure_dashboard/dashboard.py` を Streamlit で起動すると、サイドバーから JSON 変換や装置種別別の部品予測を実行できます。【F:upload_files/failure_dashboard/dashboard.py】
 - モデルの再学習や更新は、`upload_files/create_model/save_extended_model.py` の `DeviceModelTrainer` で JSON データを読み込み、装置種別ごとのモデル・エンコーダを自動保存するフローを用います。【F:upload_files/create_model/save_extended_model.py】
+
+  ## 📊 ダッシュボード画面例
+
+### 全体概要
+![ダッシュボード全体](./upload_file/dashboard_overview.png)
+
+### 異常検知結果の可視化
+![異常検知](./upload_file/anomaly_analysis.png)
+
+### 交換部品予測結果
+![予測結果](./upload_file/prediction_result.png)
