@@ -1,5 +1,16 @@
 # Portfolio
 
+  ## 📊 ダッシュボード画面例
+
+### 全体概要
+![ダッシュボード全体](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/dashboard_overview.png)
+
+### 異常検知結果の可視化
+![異常検知](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/anomaly_analysis.png)
+
+### 交換部品予測結果
+![予測結果](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/prediction_result.png)
+
 ## プロジェクト概要
 - **Failure Count Dashboard**: Streamlit 製の可視化・データ整備ツール。故障データの Excel→JSON 変換、ビル名/装置種別集計、Plotly による年間・月次の故障件数可視化、異常検知、装置種別ごとの交換部品予測などを提供します。【F:upload_files/failure_dashboard/dashboard.py】
 - **Create Model**: 故障内容から交換部品を推定する VotingClassifier を学習・保存するためのスクリプト群です。【F:upload_files/create_model/save_extended_model.py】
@@ -23,13 +34,3 @@ Extended VotingClassifier を用いたモデルの評価結果（精度など）
 - ダッシュボードは `upload_files/failure_dashboard/dashboard.py` を Streamlit で起動すると、サイドバーから JSON 変換や装置種別別の部品予測を実行できます。【F:upload_files/failure_dashboard/dashboard.py】
 - モデルの再学習や更新は、`upload_files/create_model/save_extended_model.py` の `DeviceModelTrainer` で JSON データを読み込み、装置種別ごとのモデル・エンコーダを自動保存するフローを用います。【F:upload_files/create_model/save_extended_model.py】
 
-  ## 📊 ダッシュボード画面例
-
-### 全体概要
-![ダッシュボード全体](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/dashboard_overview.png)
-
-### 異常検知結果の可視化
-![異常検知](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/anomaly_analysis.png)
-
-### 交換部品予測結果
-![予測結果](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/prediction_result.png)
