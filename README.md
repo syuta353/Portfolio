@@ -26,10 +26,10 @@ Extended VotingClassifier を用いたモデルの評価結果（精度など）
   ## 📊 ダッシュボード画面例
 
 ### 全体概要
-![ダッシュボード全体](https://github.com/syuta353/Portfolio/blob/main/upload_files/dashboard_overview.png)
+![ダッシュボード全体](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/dashboard_overview.png)
 
 ### 異常検知結果の可視化
-![異常検知](https://github.com/syuta353/Portfolio/blob/main/upload_files/anomaly_analysis.png)
+![異常検知](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/anomaly_analysis.png)
 
 ### 交換部品予測結果
-![予測結果](https://github.com/syuta353/Portfolio/blob/main/upload_files/prediction_result.png)
+![予測結果](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/prediction_result.png)
