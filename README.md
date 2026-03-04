@@ -12,8 +12,11 @@
 ![予測結果](https://github.com/syuta353/Portfolio/blob/main/upload_files/images/prediction_result.png)
 
 ## プロジェクト概要
-- **Failure Count Dashboard**: Streamlit 製の可視化・データ整備ツール。故障データの Excel→JSON 変換、ビル名/装置種別集計、Plotly による年間・月次の故障件数可視化、異常検知、装置種別ごとの交換部品予測などを提供します。【F:upload_files/failure_dashboard/dashboard.py】
-- **Create Model**: 故障内容から交換部品を推定する VotingClassifier を学習・保存するためのスクリプト群です。【F:upload_files/create_model/save_extended_model.py】
+- **Failure Count Dashboard**
+- Streamlit 製の可視化・データ整備ツール。故障データの Excel→JSON 変換、ビル名/装置種別集計、Plotly による
+- 年間・月次の故障件数可視化、異常検知、装置種別ごとの交換部品予測などを提供します。【F:upload_files/failure_dashboard/dashboard.py】
+- **Create Model**
+- 故障内容から交換部品を推定する VotingClassifier を学習・保存するためのスクリプト群です。【F:upload_files/create_model/save_extended_model.py】
 
 ## 成果物/フォルダ構成
 - `upload_files/failure_dashboard/`: ダッシュボード本体。`dashboard.py`（Streamlit UI）、`data.py`・`services.py`（データ読み込み・加工・モデル呼び出しを行うサービス層）を中心に、設定ファイル `.streamlit/config.toml` や入力用データ (`excel/original_db.xlsx`)、補助ログ (`data_log/missing_list.txt`) を格納します。【F:upload_files/failure_dashboard/directory_structure.txt】
