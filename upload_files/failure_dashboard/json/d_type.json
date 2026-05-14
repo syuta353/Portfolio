@@ -1,7 +1,23 @@
 {
-  "DT01": ["Router"],
-  "DT02": ["Switch"],
-  "DT03": ["Sensor"],
-  "DT04": ["Motor"],
-  "DT05": ["Compressor"]
+  "DT01": [
+    "Router"
+  ],
+  "DT02": [
+    "Switch"
+  ],
+  "DT03": [
+    "Sensor"
+  ],
+  "DT04": [
+    "Motor"
+  ],
+  "DT05": [
+    "Compressor"
+  ],
+  "DT06": [
+    "HVAC"
+  ],
+  "DT07": [
+    "UPS"
+  ]
 }

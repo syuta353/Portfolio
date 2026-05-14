@@ -1,7 +1,2502 @@
 [
-  { "hostname": "RT-1001", "bill": "B01", "d_type": "DT01" },
-  { "hostname": "SW-204", "bill": "B02", "d_type": "DT02" },
-  { "hostname": "SN-03",  "bill": "B03", "d_type": "DT03" },
-  { "hostname": "MT-22",  "bill": "B04", "d_type": "DT04" },
-  { "hostname": "CP-010", "bill": "B05", "d_type": "DT05" }
+  {
+    "hostname": "RT-0075",
+    "bill": "B01",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0166",
+    "bill": "B01",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0257",
+    "bill": "B01",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0348",
+    "bill": "B01",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0439",
+    "bill": "B01",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-1602",
+    "bill": "B01",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0049",
+    "bill": "B01",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0140",
+    "bill": "B01",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0231",
+    "bill": "B01",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0322",
+    "bill": "B01",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0413",
+    "bill": "B01",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0062",
+    "bill": "B01",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0153",
+    "bill": "B01",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0244",
+    "bill": "B01",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0335",
+    "bill": "B01",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0426",
+    "bill": "B01",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0088",
+    "bill": "B01",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0179",
+    "bill": "B01",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0270",
+    "bill": "B01",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0361",
+    "bill": "B01",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0452",
+    "bill": "B01",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0023",
+    "bill": "B01",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0114",
+    "bill": "B01",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0205",
+    "bill": "B01",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0296",
+    "bill": "B01",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0387",
+    "bill": "B01",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0478",
+    "bill": "B01",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0101",
+    "bill": "B01",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0192",
+    "bill": "B01",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0283",
+    "bill": "B01",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0374",
+    "bill": "B01",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0465",
+    "bill": "B01",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0036",
+    "bill": "B01",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0127",
+    "bill": "B01",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0218",
+    "bill": "B01",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0309",
+    "bill": "B01",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0400",
+    "bill": "B01",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0491",
+    "bill": "B01",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0089",
+    "bill": "B02",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0180",
+    "bill": "B02",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0271",
+    "bill": "B02",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0362",
+    "bill": "B02",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0453",
+    "bill": "B02",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0063",
+    "bill": "B02",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0154",
+    "bill": "B02",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0245",
+    "bill": "B02",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0336",
+    "bill": "B02",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0427",
+    "bill": "B02",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-317",
+    "bill": "B02",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0076",
+    "bill": "B02",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0167",
+    "bill": "B02",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0258",
+    "bill": "B02",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0349",
+    "bill": "B02",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0440",
+    "bill": "B02",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0102",
+    "bill": "B02",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0193",
+    "bill": "B02",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0284",
+    "bill": "B02",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0375",
+    "bill": "B02",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0466",
+    "bill": "B02",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0037",
+    "bill": "B02",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0128",
+    "bill": "B02",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0219",
+    "bill": "B02",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0310",
+    "bill": "B02",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0401",
+    "bill": "B02",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0492",
+    "bill": "B02",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0024",
+    "bill": "B02",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0115",
+    "bill": "B02",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0206",
+    "bill": "B02",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0297",
+    "bill": "B02",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0388",
+    "bill": "B02",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0479",
+    "bill": "B02",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0050",
+    "bill": "B02",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0141",
+    "bill": "B02",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0232",
+    "bill": "B02",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0323",
+    "bill": "B02",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0414",
+    "bill": "B02",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0103",
+    "bill": "B03",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0194",
+    "bill": "B03",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0285",
+    "bill": "B03",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0376",
+    "bill": "B03",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0467",
+    "bill": "B03",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-2105",
+    "bill": "B03",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0077",
+    "bill": "B03",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0168",
+    "bill": "B03",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0259",
+    "bill": "B03",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0350",
+    "bill": "B03",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0441",
+    "bill": "B03",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0090",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0181",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0272",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0363",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0454",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SN-03",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SN-11",
+    "bill": "B03",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0025",
+    "bill": "B03",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0116",
+    "bill": "B03",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0207",
+    "bill": "B03",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0298",
+    "bill": "B03",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0389",
+    "bill": "B03",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0480",
+    "bill": "B03",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0051",
+    "bill": "B03",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0142",
+    "bill": "B03",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0233",
+    "bill": "B03",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0324",
+    "bill": "B03",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0415",
+    "bill": "B03",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0038",
+    "bill": "B03",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0129",
+    "bill": "B03",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0220",
+    "bill": "B03",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0311",
+    "bill": "B03",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0402",
+    "bill": "B03",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0493",
+    "bill": "B03",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0064",
+    "bill": "B03",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0155",
+    "bill": "B03",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0246",
+    "bill": "B03",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0337",
+    "bill": "B03",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0428",
+    "bill": "B03",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0026",
+    "bill": "B04",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0117",
+    "bill": "B04",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0208",
+    "bill": "B04",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0299",
+    "bill": "B04",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0390",
+    "bill": "B04",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0481",
+    "bill": "B04",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0091",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0182",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0273",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0364",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0455",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-101",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-204",
+    "bill": "B04",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0104",
+    "bill": "B04",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0195",
+    "bill": "B04",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0286",
+    "bill": "B04",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0377",
+    "bill": "B04",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0468",
+    "bill": "B04",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0039",
+    "bill": "B04",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0130",
+    "bill": "B04",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0221",
+    "bill": "B04",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0312",
+    "bill": "B04",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0403",
+    "bill": "B04",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0494",
+    "bill": "B04",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0065",
+    "bill": "B04",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0156",
+    "bill": "B04",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0247",
+    "bill": "B04",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0338",
+    "bill": "B04",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0429",
+    "bill": "B04",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0052",
+    "bill": "B04",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0143",
+    "bill": "B04",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0234",
+    "bill": "B04",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0325",
+    "bill": "B04",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0416",
+    "bill": "B04",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0078",
+    "bill": "B04",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0169",
+    "bill": "B04",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0260",
+    "bill": "B04",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0351",
+    "bill": "B04",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0442",
+    "bill": "B04",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0040",
+    "bill": "B05",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0131",
+    "bill": "B05",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0222",
+    "bill": "B05",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0313",
+    "bill": "B05",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0404",
+    "bill": "B05",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0495",
+    "bill": "B05",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0105",
+    "bill": "B05",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0196",
+    "bill": "B05",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0287",
+    "bill": "B05",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0378",
+    "bill": "B05",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0469",
+    "bill": "B05",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0027",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0118",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0209",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0300",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0391",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0482",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SN-808",
+    "bill": "B05",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0053",
+    "bill": "B05",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0144",
+    "bill": "B05",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0235",
+    "bill": "B05",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0326",
+    "bill": "B05",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0417",
+    "bill": "B05",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0079",
+    "bill": "B05",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0170",
+    "bill": "B05",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0261",
+    "bill": "B05",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0352",
+    "bill": "B05",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0443",
+    "bill": "B05",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0066",
+    "bill": "B05",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0157",
+    "bill": "B05",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0248",
+    "bill": "B05",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0339",
+    "bill": "B05",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0430",
+    "bill": "B05",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0092",
+    "bill": "B05",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0183",
+    "bill": "B05",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0274",
+    "bill": "B05",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0365",
+    "bill": "B05",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0456",
+    "bill": "B05",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0054",
+    "bill": "B06",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0145",
+    "bill": "B06",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0236",
+    "bill": "B06",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0327",
+    "bill": "B06",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0418",
+    "bill": "B06",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0028",
+    "bill": "B06",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0119",
+    "bill": "B06",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0210",
+    "bill": "B06",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0301",
+    "bill": "B06",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0392",
+    "bill": "B06",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0483",
+    "bill": "B06",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0041",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0132",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0223",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0314",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0405",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0496",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SN-330",
+    "bill": "B06",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0067",
+    "bill": "B06",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0158",
+    "bill": "B06",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0249",
+    "bill": "B06",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0340",
+    "bill": "B06",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0431",
+    "bill": "B06",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0093",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-010",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0184",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0275",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0366",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0457",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-51",
+    "bill": "B06",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0080",
+    "bill": "B06",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0171",
+    "bill": "B06",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0262",
+    "bill": "B06",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0353",
+    "bill": "B06",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0444",
+    "bill": "B06",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0106",
+    "bill": "B06",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0197",
+    "bill": "B06",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0288",
+    "bill": "B06",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0379",
+    "bill": "B06",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0470",
+    "bill": "B06",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0068",
+    "bill": "B07",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0159",
+    "bill": "B07",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0250",
+    "bill": "B07",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0341",
+    "bill": "B07",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0432",
+    "bill": "B07",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0042",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0133",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0224",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0315",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0406",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0497",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-229",
+    "bill": "B07",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0055",
+    "bill": "B07",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0146",
+    "bill": "B07",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0237",
+    "bill": "B07",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0328",
+    "bill": "B07",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0419",
+    "bill": "B07",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0081",
+    "bill": "B07",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0172",
+    "bill": "B07",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0263",
+    "bill": "B07",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0354",
+    "bill": "B07",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0445",
+    "bill": "B07",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0107",
+    "bill": "B07",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0198",
+    "bill": "B07",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0289",
+    "bill": "B07",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0380",
+    "bill": "B07",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0471",
+    "bill": "B07",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0094",
+    "bill": "B07",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0185",
+    "bill": "B07",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0276",
+    "bill": "B07",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0367",
+    "bill": "B07",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0458",
+    "bill": "B07",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0029",
+    "bill": "B07",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0120",
+    "bill": "B07",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0211",
+    "bill": "B07",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0302",
+    "bill": "B07",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0393",
+    "bill": "B07",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0484",
+    "bill": "B07",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0082",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0173",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0264",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0355",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0446",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0901",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-1001",
+    "bill": "B08",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0056",
+    "bill": "B08",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0147",
+    "bill": "B08",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0238",
+    "bill": "B08",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0329",
+    "bill": "B08",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0420",
+    "bill": "B08",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0069",
+    "bill": "B08",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0160",
+    "bill": "B08",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0251",
+    "bill": "B08",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0342",
+    "bill": "B08",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0433",
+    "bill": "B08",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0095",
+    "bill": "B08",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0186",
+    "bill": "B08",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0277",
+    "bill": "B08",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0368",
+    "bill": "B08",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0459",
+    "bill": "B08",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0030",
+    "bill": "B08",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0121",
+    "bill": "B08",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0212",
+    "bill": "B08",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0303",
+    "bill": "B08",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0394",
+    "bill": "B08",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0485",
+    "bill": "B08",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0108",
+    "bill": "B08",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0199",
+    "bill": "B08",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0290",
+    "bill": "B08",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0381",
+    "bill": "B08",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0472",
+    "bill": "B08",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0043",
+    "bill": "B08",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0134",
+    "bill": "B08",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0225",
+    "bill": "B08",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0316",
+    "bill": "B08",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0407",
+    "bill": "B08",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0498",
+    "bill": "B08",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0096",
+    "bill": "B09",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0187",
+    "bill": "B09",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0278",
+    "bill": "B09",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0369",
+    "bill": "B09",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0460",
+    "bill": "B09",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-1003",
+    "bill": "B09",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0070",
+    "bill": "B09",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0161",
+    "bill": "B09",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0252",
+    "bill": "B09",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0343",
+    "bill": "B09",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0434",
+    "bill": "B09",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0083",
+    "bill": "B09",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0174",
+    "bill": "B09",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0265",
+    "bill": "B09",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0356",
+    "bill": "B09",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0447",
+    "bill": "B09",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0109",
+    "bill": "B09",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0200",
+    "bill": "B09",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0291",
+    "bill": "B09",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0382",
+    "bill": "B09",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0473",
+    "bill": "B09",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0044",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0135",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0226",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0317",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0408",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0499",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-200",
+    "bill": "B09",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0031",
+    "bill": "B09",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0122",
+    "bill": "B09",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0213",
+    "bill": "B09",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0304",
+    "bill": "B09",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0395",
+    "bill": "B09",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0486",
+    "bill": "B09",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0057",
+    "bill": "B09",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0148",
+    "bill": "B09",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0239",
+    "bill": "B09",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0330",
+    "bill": "B09",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0421",
+    "bill": "B09",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0110",
+    "bill": "B10",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0201",
+    "bill": "B10",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0292",
+    "bill": "B10",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0383",
+    "bill": "B10",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0474",
+    "bill": "B10",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0084",
+    "bill": "B10",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0175",
+    "bill": "B10",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0266",
+    "bill": "B10",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0357",
+    "bill": "B10",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0448",
+    "bill": "B10",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0097",
+    "bill": "B10",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0188",
+    "bill": "B10",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0279",
+    "bill": "B10",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0370",
+    "bill": "B10",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0461",
+    "bill": "B10",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0032",
+    "bill": "B10",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0123",
+    "bill": "B10",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0214",
+    "bill": "B10",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0305",
+    "bill": "B10",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0396",
+    "bill": "B10",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0487",
+    "bill": "B10",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0058",
+    "bill": "B10",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0149",
+    "bill": "B10",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0240",
+    "bill": "B10",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0331",
+    "bill": "B10",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0422",
+    "bill": "B10",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0045",
+    "bill": "B10",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0136",
+    "bill": "B10",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0227",
+    "bill": "B10",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0318",
+    "bill": "B10",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0409",
+    "bill": "B10",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0500",
+    "bill": "B10",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0071",
+    "bill": "B10",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0162",
+    "bill": "B10",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0253",
+    "bill": "B10",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0344",
+    "bill": "B10",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0435",
+    "bill": "B10",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-220",
+    "bill": "B10",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0033",
+    "bill": "B11",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0124",
+    "bill": "B11",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0215",
+    "bill": "B11",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0306",
+    "bill": "B11",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0397",
+    "bill": "B11",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0488",
+    "bill": "B11",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0098",
+    "bill": "B11",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0189",
+    "bill": "B11",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0280",
+    "bill": "B11",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0371",
+    "bill": "B11",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0462",
+    "bill": "B11",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0111",
+    "bill": "B11",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0202",
+    "bill": "B11",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0293",
+    "bill": "B11",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0384",
+    "bill": "B11",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0475",
+    "bill": "B11",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0046",
+    "bill": "B11",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0137",
+    "bill": "B11",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0228",
+    "bill": "B11",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0319",
+    "bill": "B11",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0410",
+    "bill": "B11",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MT-90",
+    "bill": "B11",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0072",
+    "bill": "B11",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0163",
+    "bill": "B11",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0254",
+    "bill": "B11",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0345",
+    "bill": "B11",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0436",
+    "bill": "B11",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0059",
+    "bill": "B11",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0150",
+    "bill": "B11",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0241",
+    "bill": "B11",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0332",
+    "bill": "B11",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0423",
+    "bill": "B11",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0085",
+    "bill": "B11",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0176",
+    "bill": "B11",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0267",
+    "bill": "B11",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0358",
+    "bill": "B11",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0449",
+    "bill": "B11",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0047",
+    "bill": "B12",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0138",
+    "bill": "B12",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0229",
+    "bill": "B12",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0320",
+    "bill": "B12",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0411",
+    "bill": "B12",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0112",
+    "bill": "B12",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0203",
+    "bill": "B12",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0294",
+    "bill": "B12",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0385",
+    "bill": "B12",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0476",
+    "bill": "B12",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0034",
+    "bill": "B12",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0125",
+    "bill": "B12",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0216",
+    "bill": "B12",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0307",
+    "bill": "B12",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0398",
+    "bill": "B12",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0489",
+    "bill": "B12",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0060",
+    "bill": "B12",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0151",
+    "bill": "B12",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0242",
+    "bill": "B12",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0333",
+    "bill": "B12",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0424",
+    "bill": "B12",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0086",
+    "bill": "B12",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0177",
+    "bill": "B12",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0268",
+    "bill": "B12",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0359",
+    "bill": "B12",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0450",
+    "bill": "B12",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "AC-15",
+    "bill": "B12",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0073",
+    "bill": "B12",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0164",
+    "bill": "B12",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0255",
+    "bill": "B12",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0346",
+    "bill": "B12",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0437",
+    "bill": "B12",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0099",
+    "bill": "B12",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0190",
+    "bill": "B12",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0281",
+    "bill": "B12",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0372",
+    "bill": "B12",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0463",
+    "bill": "B12",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "RT-0061",
+    "bill": "B13",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0152",
+    "bill": "B13",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0243",
+    "bill": "B13",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0334",
+    "bill": "B13",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "RT-0425",
+    "bill": "B13",
+    "d_type": "DT01"
+  },
+  {
+    "hostname": "SW-0035",
+    "bill": "B13",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0126",
+    "bill": "B13",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0217",
+    "bill": "B13",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0308",
+    "bill": "B13",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0399",
+    "bill": "B13",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SW-0490",
+    "bill": "B13",
+    "d_type": "DT02"
+  },
+  {
+    "hostname": "SE-0048",
+    "bill": "B13",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0139",
+    "bill": "B13",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0230",
+    "bill": "B13",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0321",
+    "bill": "B13",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "SE-0412",
+    "bill": "B13",
+    "d_type": "DT03"
+  },
+  {
+    "hostname": "MO-0074",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0165",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0256",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0347",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MO-0438",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MT-12",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MT-22",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "MT-24",
+    "bill": "B13",
+    "d_type": "DT04"
+  },
+  {
+    "hostname": "CP-0100",
+    "bill": "B13",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0191",
+    "bill": "B13",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0282",
+    "bill": "B13",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0373",
+    "bill": "B13",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "CP-0464",
+    "bill": "B13",
+    "d_type": "DT05"
+  },
+  {
+    "hostname": "HV-0087",
+    "bill": "B13",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0178",
+    "bill": "B13",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0269",
+    "bill": "B13",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0360",
+    "bill": "B13",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "HV-0451",
+    "bill": "B13",
+    "d_type": "DT06"
+  },
+  {
+    "hostname": "UP-0113",
+    "bill": "B13",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0204",
+    "bill": "B13",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0295",
+    "bill": "B13",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0386",
+    "bill": "B13",
+    "d_type": "DT07"
+  },
+  {
+    "hostname": "UP-0477",
+    "bill": "B13",
+    "d_type": "DT07"
+  }
 ]

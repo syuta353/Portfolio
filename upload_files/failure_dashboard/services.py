@@ -499,19 +499,26 @@ class AnomalyDetector:
                 if selected_year is None:
                     continue
                 sub_df = sub_df[sub_df['年度'] == selected_year]
-
-            grouped = sub_df.groupby(['発生日', '年度', '月']).size().reset_index(name='件数')
-            grouped['年度'] = selected_year if selected_year else grouped['年度']
-
-            if len(grouped) < 1:
-                continue
+                grouped = sub_df.groupby(['年度', '月']).size().reset_index(name='件数')
+                if len(grouped) < 1:
+                    continue
+                grouped['発生日'] = grouped.apply(
+                    lambda row: f"{int(row['年度']):04d}-{int(row['月']):02d}-01",
+                    axis=1
+                )
+            else:
+                grouped = sub_df.groupby(['年度']).size().reset_index(name='件数')
+                if len(grouped) < 1:
+                    continue
+                grouped['発生日'] = grouped['年度'].astype(int).astype(str) + '-01-01'
 
             mother_count = type_counts.query("d_type_name == @dtype")['count'].sum()
             if mother_count == 0:
                 continue
 
+            threshold_count = int(np.ceil(mother_count * threshold))
             grouped['装置種別'] = dtype
-            grouped['異常'] = (grouped['件数'] / mother_count) > threshold
+            grouped['異常'] = grouped['件数'] >= threshold_count
             grouped['異常'] = grouped['異常'].apply(lambda x: '異常' if x else '正常')
 
             anomaly_results.append(grouped)
@@ -535,7 +542,7 @@ class AnomalyDetector:
         threshold_ratio = threshold_percent / 100.0
         result_df = type_counts.copy()
         result_df = result_df.rename(columns={'d_type_name': '装置種別', 'count': '全体数'})
-        result_df['しきい値件数'] = (result_df['全体数'] * threshold_ratio).round().astype(int)
+        result_df['しきい値件数'] = np.ceil(result_df['全体数'] * threshold_ratio).astype(int)
         return result_df
 
     def calculate_failure_statistics(self, df, selected_years):
